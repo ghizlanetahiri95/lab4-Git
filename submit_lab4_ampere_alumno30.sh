@@ -17,4 +17,4 @@ export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 echo "OMP_NUM_THREADS: $OMP_NUM_THREADS"
 
 # Ejecutar el script con srun
-time srun -n 4 -p hpc-bio-ampere ./file-cut.sh
+time srun -n 4 -p hpc-bio-ampere ./file_cut.sh
